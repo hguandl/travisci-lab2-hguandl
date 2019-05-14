@@ -28,9 +28,9 @@ android:
     - extra-google-m2repository
     - extra-android-m2repository # for design library
     - addon-google_apis-google-19 # google play services
-    - sys-img-armeabi-v7a
+    - sys-img-armeabi-v7a-android-$ANDROID_API
     - addon-google_apis-google-$ANDROID_API
-    - sys-img-armeabi-v7a
+    - sys-img-armeabi-v7a-$EMULATOR_API
     - addon-google_apis-google-$EMULATOR_API
   licenses:
     - android-sdk-preview-license-.+
